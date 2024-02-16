@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <script>
+            function greet( name,myfunction){
+                console.log('Hello world');
+                myfunction(name);
+            }
+            function sayName(name){
+                console.log('Hello'+''+name);
+            }
+            setTimeout(greet,2000,'jhon',sayName);
+            sayName('john');
+            </script> 
+            </body>
+            </html>
